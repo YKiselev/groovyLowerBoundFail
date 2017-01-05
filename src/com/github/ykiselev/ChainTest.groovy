@@ -20,7 +20,7 @@ class ChainTest {
     }
 
     @Test
-    "should chain"() {
+    void "should chain"() {
         def a1 = new A<String, Integer>()
         def a2 = new A<Integer, Double>()
         def a3 = new A<Double, String>()
